@@ -3,7 +3,7 @@ About pygsl_lite-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pygsl_lite-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/pygsl-lite/
+Home: https://github.com/AEI-ACR/pygsl_lite
 
 Package license: GPL-2.0-or-later
 
@@ -54,10 +54,17 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpython</td>
+              <td>linux_64_python3.13.____cp313</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=19092&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygsl_lite-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygsl_lite-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.14.____cp314</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=19092&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygsl_lite-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.14.____cp314" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -82,10 +89,17 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.9.____cpython</td>
+              <td>osx_64_python3.13.____cp313</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=19092&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygsl_lite-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygsl_lite-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.14.____cp314</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=19092&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygsl_lite-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -110,10 +124,17 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_python3.9.____cpython</td>
+              <td>osx_arm64_python3.13.____cp313</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=19092&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygsl_lite-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygsl_lite-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.14.____cp314</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=19092&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pygsl_lite-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.14.____cp314" alt="variant">
                 </a>
               </td>
             </tr>
@@ -129,19 +150,19 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pygsl_lite-green.svg)](https://anaconda.org/conda-forge/pygsl_lite) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pygsl_lite.svg)](https://anaconda.org/conda-forge/pygsl_lite) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pygsl_lite.svg)](https://anaconda.org/conda-forge/pygsl_lite) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pygsl_lite.svg)](https://anaconda.org/conda-forge/pygsl_lite) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pygsl__lite-green.svg)](https://anaconda.org/conda-forge/pygsl_lite) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pygsl_lite.svg)](https://anaconda.org/conda-forge/pygsl_lite) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pygsl_lite.svg)](https://anaconda.org/conda-forge/pygsl_lite) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pygsl_lite.svg)](https://anaconda.org/conda-forge/pygsl_lite) |
 
 Installing pygsl_lite
 =====================
 
-Installing `pygsl_lite` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `pygsl_lite` from the `conda-forge/label/pygsl_lite_rc` channel can be achieved by adding `conda-forge/label/pygsl_lite_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/pygsl_lite_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `pygsl_lite` can be installed with `conda`:
+Once the `conda-forge/label/pygsl_lite_rc` channel has been enabled, `pygsl_lite` can be installed with `conda`:
 
 ```
 conda install pygsl_lite
@@ -156,26 +177,26 @@ mamba install pygsl_lite
 It is possible to list all of the versions of `pygsl_lite` available on your platform with `conda`:
 
 ```
-conda search pygsl_lite --channel conda-forge
+conda search pygsl_lite --channel conda-forge/label/pygsl_lite_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search pygsl_lite --channel conda-forge
+mamba search pygsl_lite --channel conda-forge/label/pygsl_lite_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search pygsl_lite --channel conda-forge
+mamba repoquery search pygsl_lite --channel conda-forge/label/pygsl_lite_rc
 
 # List packages depending on `pygsl_lite`:
-mamba repoquery whoneeds pygsl_lite --channel conda-forge
+mamba repoquery whoneeds pygsl_lite --channel conda-forge/label/pygsl_lite_rc
 
 # List dependencies of `pygsl_lite`:
-mamba repoquery depends pygsl_lite --channel conda-forge
+mamba repoquery depends pygsl_lite --channel conda-forge/label/pygsl_lite_rc
 ```
 
 
@@ -200,12 +221,12 @@ it is possible to build and upload installable packages to the
 [conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
-To manage the continuous integration and simplify feedstock maintenance
+To manage the continuous integration and simplify feedstock maintenance,
 [conda-smithy](https://github.com/conda-forge/conda-smithy) has been developed.
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
-For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
+For more information, please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -232,7 +253,7 @@ merged, the recipe will be re-built and uploaded automatically to the
 everybody to install and use from the `conda-forge` channel.
 Note that all branches in the conda-forge/pygsl_lite-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
-on branches in forks and branches in the main repository should only be used to
+on branches in forks, and branches in the main repository should only be used to
 build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:

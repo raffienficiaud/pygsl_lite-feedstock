@@ -1,13 +1,13 @@
 {% set name = "pygsl_lite" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8rc2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pygsl_lite-{{ version }}.tar.gz
-  sha256: 556d1c99fd50b23c12a103415bef421a8ecd0ce5e510d7d0587c1e4ba14ca0c5
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pygsl_lite-{{ version }}.tar.gz
+  sha256: ca73e75fc325a3bf4f03f10c9f0580856f9b66cef4b41a63c8c8028c98af3788
 
 
 build:
@@ -52,7 +52,7 @@ test:
 
 about:
   summary: Minimal GNU Scientific Library Interface
-  home: https://pypi.org/project/pygsl-lite/
+  home: https://github.com/AEI-ACR/pygsl_lite
   license: GPL-2.0-or-later
   license_family: GPL
   license_file: LICENSE
